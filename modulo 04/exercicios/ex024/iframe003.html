@@ -5,17 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exercicio de iframe</title>
+    <style>
+        iframe{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>faça uma escolha</h1>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quisquam perferendis minus ab, nemo modi pariatur, mollitia nulla ad reprehenderit laudantium tenetur officiis assumenda, aperiam numquam quod exercitationem recusandae cupiditate.</p>
     <ul>
-        <li><a href="#">primeiro site</a></li>
-        <li><a href="#">segundo site</a></li>
-        <li><a href="#">terceiro site</a></li>
+        <li><a href="../ex024/paginas-adicionais/pagina01.html" target="frame">primeiro site</a></li>
+        <li><a href="../ex024/paginas-adicionais/pagina02.html" target="frame">segundo site</a></li>
+        <li><a href="../ex024/paginas-adicionais/pagina03.html" target="frame">terceiro site</a></li>
     </ul>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusantium consequatur obcaecati illum ipsum. Unde dignissimos quisquam tempore repudiandae magni excepturi. Ad sed expedita similique magni, praesentium aut dolore accusantium?</p>
+    <iframe srcdoc=" <h1>ola, ecolha um dos links acima</h1> " name="frame" frameborder="0">
+        <p>seu dispositivo nao e compativel com isso</p>
+    </iframe>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ea molestiae beatae? Et nulla corporis eos voluptatibus, consequuntur soluta odio molestiae dolor corrupti minus inventore nostrum deleniti ut enim voluptate!</p>
 </body>
 </html>
