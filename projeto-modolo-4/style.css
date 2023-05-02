@@ -15,7 +15,7 @@ main{
     position: relative;
     height: 100vh;
 }
-.tela{
+.telefone{
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
@@ -30,11 +30,21 @@ main{
     left: 22px;
     width: 269px;
     height: 471px;
+
 }
 
-
+.icones{
+    text-align: right;
+}
+img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.276);
+    transform: translate(-3px,-3px);
+    transition: .4s;
+}
 .menu{
     margin: 7px;
     width: 50px;
     border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.351);
+    box-sizing: border-box;
 }
