@@ -21,16 +21,16 @@ main{
     left: 50%;
     top: 50%;
     height: 627px;
-    width: 311px;
+    width: 251px;
     background:url(../projeto-modolo-4/fotos/frame-iphone.png) no-repeat;
+    background-size: contain;
 }
 #tela{
     position: relative;
-    top: 80px;
-    left: 22px;
-    width: 267px;
-    height: 471px;
-
+    top: 64px;
+    left: 17px;
+    width: 217px;
+    height: 381px;
 }
 
 .icones{
