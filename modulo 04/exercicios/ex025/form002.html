@@ -8,8 +8,19 @@
 </head>
 <body>
     <h1>Segundo formulario</h1>
-    <form action="cadastro.php">
-        
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusu">Usuario</label>
+            <input type="text" name="Usuario" id="iusu" required>
+        </p>
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="senha" id="isen" required>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset"  value="limpar">
+        </p>
     </form>
 </body>
 </html>
